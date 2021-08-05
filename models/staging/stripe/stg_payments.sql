@@ -12,4 +12,4 @@ with payments as (
     from {{ source('stripe','payment')}}
 )
 
-select * from payments;
+select * from payments
